@@ -1,0 +1,237 @@
+/* - - - Custom Theme - - - */
+
+/* ----- Logo ----- */
+h1 a {
+	min-height:0;
+	height:40px;
+}
+* html h1 a {/* IE6 png Support */
+	background-image: none;
+}
+
+/* ----- Backgrounds ----- */
+html{
+	background-image:none;
+	background-color:#eeeeee;
+}
+h1{
+	background-image:none;
+	background-color:#cccccc;
+}
+#container, html.embed{
+	background-color:#FFFFFF;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{
+	background:#FFFFFF  repeat-x top;
+}
+.safari .wufoo input.file{
+	background:none;
+}
+.wufoo li.focused{
+	background-color:#FFF7C0;
+}
+.wufoo .instruct{
+	background-color:#F5F5F5;
+}
+
+/* ----- Borders ----- */
+#container{
+	border:0 solid #ff9900;
+}
+.wufoo .info, .wufoo .paging-context{
+	border-bottom:1px dotted #CCCCCC;
+}
+.wufoo .section, .wufoo .captcha{
+	border-top:1px dotted #CCCCCC;
+}
+.wufoo input.text, .wufoo textarea.textarea{
+	border:;
+}
+.wufoo .instruct{
+	border:1px solid #E6E6E6;
+}
+.fixed .info{
+	border-bottom:none;
+}
+
+/* ----- Typography ----- */
+.wufoo .info h2{
+	font-size:160%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#000000;
+}
+.wufoo .info h2 a{
+	text-decoration:none;
+}
+.wufoo .info div{
+	font-size:95%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444;
+}
+.wufoo .section h3{
+	font-size:110%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#000000;
+}
+.wufoo .section div{
+	font-size:85%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444;
+}
+
+.wufoo label.desc{
+	font-size:95%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444;
+}
+.wufoo label.choice{
+	font-size:100%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo input.file{
+	font-size:100%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#333333;
+}
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	font-family:inherit;
+	color:#444444;
+}
+.safari .wufoo input.file{ /* Webkit */
+	font-size:100%;
+	font-family:inherit;
+	color:#444444;
+}
+.wufoo .instruct small{
+	font-size:80%;
+	font-family:inherit;
+	font-weight:;
+	font-style:;
+	color:#444444;
+}
+.altInstruct .instruct, .wufoo li.leftHalf .instruct, .wufoo li.rightHalf .instruct{
+	background:none;
+	border:none;
+}
+.altInstruct .instruct small, .wufoo li.leftHalf .instruct small, .wufoo li.rightHalf .instruct small{
+	color:#444444;
+	background:none;
+	border:none;
+}
+
+/* ----- Button Styles ----- */
+
+.wufoo input.btTxt{
+	font-size:;
+	font-family:;
+	font-weight:;
+	font-style:;
+	color:;
+}
+
+/* ----- Highlight Styles ----- */
+
+.wufoo li.focused label.desc,
+.wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,
+.safari .wufoo li.focused input.file{ 
+	color:#000000;
+}
+
+/* ----- Confirmation ----- */
+
+.confirm h2{
+	font-family:inherit;
+	color:#444444;
+}
+a.power{
+	background-color:#cccccc !important;
+	border-color:#a3a3a3 !important;
+	color:#000000 !important;
+}
+.embed a.power{
+	background-color:#e6e6e6 !important;
+	border-color:#cccccc !important;
+	color:#000000 !important;
+}
+
+/* ----- Pagination ----- */
+
+.pg1 var, .pg2 var, .pg2 em, .page1 .pg2 var, .pg1 b, .wufoo .buttons .marker{
+	font-family:inherit;
+	color:#444444;
+}
+
+.pg1 var{
+	border:1px solid #cccccc;
+}
+.pg1 .done var{
+	background:#e6e6e6;
+}
+
+.pg1 .selected var, .pg2 var, .pg2 var em{
+	background:#FFF7C0;
+	color:#000000;
+}
+.pg1 .selected var, .pg2 td{
+	border:1px solid #e6dead;
+}
+
+/* Likert Backgrounds */
+
+.likert table{
+	background-color:#FFFFFF;
+}
+.likert thead td, .likert thead th{
+	background-color:#e6e6e6;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th{
+	background-color:#f5f5f5;
+}
+
+/* Likert Borders */
+
+.likert table, .likert th, .likert td{
+	border-color:#dedede;
+}
+.likert td{
+	border-left:1px solid #cccccc;
+}
+
+/* Likert Typography */
+
+.likert caption, .likert thead td, .likert tbody th label{
+	color:#444444;
+	font-family:inherit;
+}
+.likert tbody td label{
+	color:#575757;
+	font-family:inherit;
+}
+.likert caption, .likert tbody th label{
+	font-size:95%;
+}
+
+/* Likert Hover */
+
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label{
+	background-color:#FFF7C0;
+	color:#000000;
+}
+.likert tbody tr:hover td{
+	border-left:1px solid #ccc69a;
+}
